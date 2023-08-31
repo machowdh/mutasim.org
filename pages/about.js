@@ -67,14 +67,14 @@ function About() {
         problems that have the promise to change things for the better.
       </p>
       <p css={styles.paragraph}>
-        I'm excited about the prospect of interactive intelligence and
+        I&apos;m excited about the prospect of interactive intelligence and
         it's integration in modern software applications at scale.
       </p>
 
       <section>
         <Subtitle css={styles.subtitle}>Currently</Subtitle>
         <p css={styles.paragraph}>
-          I'm currently a semester away from finishing up my Master's in CS at{' '}
+          I&apos;m currently a semester away from finishing up my Master's in CS at{' '}
           <Link href="https://omscs.gatech.edu/home">Georgia Tech</Link> where I've taken
           courses on machine learning, autonomous robotics, knowledge-based artificial intelligence,
           and more. 
