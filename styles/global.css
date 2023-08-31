@@ -1,0 +1,65 @@
+html,
+body,
+body > div /* react root */ {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  color: var(--colors-text-primary);
+  background-color: var(--colors-background);
+  direction: ltr;
+  font-family: var(--font-family-sans-serif);
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  scroll-behavior: smooth;
+  transition: color 300ms ease, background 300ms ease;
+}
+
+::-moz-selection {
+  background-color: var(--colors-highlight);
+  color: var(--colors-primary);
+}
+::selection {
+  background-color: var(--colors-highlight);
+  color: var(--colors-primary);
+}
+
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+/* scrollbar */
+body::-webkit-scrollbar {
+  width: var(--scrollbar-width);
+}
+body::-webkit-scrollbar-track {
+  background-color: var(--colors-background-light);
+}
+body::-webkit-scrollbar-thumb {
+  border: 3px solid var(--colors-grey-100);
+  background-color: var(--colors-grey-300);
+  border-radius: var(--shape-border-radius);
+}
+
+ol,
+ul,
+li {
+  /* reset */
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+button {
+  /* reset */
+  padding: 0;
+  font: inherit;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
