@@ -68,16 +68,17 @@ function About() {
       </p>
       <p css={styles.paragraph}>
         I&apos;m excited about the prospect of interactive intelligence and
-        it's integration in modern software applications at scale.
+        it&apos;s integration in modern software applications at scale.
       </p>
 
       <section>
         <Subtitle css={styles.subtitle}>Currently</Subtitle>
         <p css={styles.paragraph}>
-          I&apos;m currently a semester away from finishing up my Master's in CS at{' '}
-          <Link href="https://omscs.gatech.edu/home">Georgia Tech</Link> where I've taken
-          courses on machine learning, autonomous robotics, knowledge-based artificial intelligence,
-          and more. 
+          I&apos;m currently a semester away from finishing up my Master&pos;s
+          in CS at{' '}
+          <Link href="https://omscs.gatech.edu/home">Georgia Tech</Link> where
+          I&pos;ve taken courses on machine learning, autonomous robotics,
+          knowledge-based artificial intelligence, and more.
           {/* collaborate with physicians, biologists, and engineers to build
           portals, tools, and{' '}
           <Link href="https://www.mskcc.org/msk-impact">tests</Link> in clinical

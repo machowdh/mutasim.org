@@ -108,16 +108,16 @@ function Home({ recentProjects }) {
           Software engineer.
           <br />
           MS in CS student at Georgia Tech.{' '}
-          {/* <Link href="https://mskcc.org">Georgia Tech</Link>. */}
+          <Link href="https://www.gatech.edu/">Georgia Tech</Link>.
         </motion.p>
         <motion.div {...bottomMotionProps}>
           <p css={styles.description}>
-            I'm currently studying artificial and interactive intelligence, and
-            all things software engineering.&nbsp;
+            I&apos;m currently studying artificial and interactive intelligence,
+            and all things software engineering.&nbsp;
             <br />
             <NavLink href="/about">Read more</NavLink>, see my{' '}
             <NavLink href="/projects">projects</NavLink>,{' '}
-            <NavLink href="/posts">what I'm thinking about</NavLink>, or{' '}
+            <NavLink href="/posts">what I&apos;m thinking about</NavLink>, or{' '}
             <NavLink href="/contact">contact info</NavLink>.
           </p>
           <Subtitle>Projects</Subtitle>
