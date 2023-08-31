@@ -59,25 +59,25 @@ function About() {
       </Head>
       <p css={styles.blurb}>
         I&apos;m Mutasim.
-        <br />
-        I&apos;m a software engineering student currently in Dallas.
+        <br />A software engineering student currently in Dallas.
       </p>
       <p css={styles.paragraph}>
-        I&apos;m really interested in working on difficult technological
-        problems that have the promise to change things for the better.
+        I&apos;m really interested in working on technological problems that
+        have the promise to change things for the better.
       </p>
       <p css={styles.paragraph}>
-        I&apos;m excited about the prospect of interactive intelligence and
-        it&apos;s integration in modern software applications at scale.
+        My excitement is in working to integrate AI in modern software
+        applications at scale. But any interesting mission brings interesting
+        technology.
       </p>
 
       <section>
         <Subtitle css={styles.subtitle}>Currently</Subtitle>
         <p css={styles.paragraph}>
-          I&apos;m currently a semester away from finishing up my Master&pos;s
+          I&apos;m currently a semester away from finishing up my Master&apos;s
           in CS at{' '}
           <Link href="https://omscs.gatech.edu/home">Georgia Tech</Link> where
-          I&pos;ve taken courses on machine learning, autonomous robotics,
+          I&apos;ve taken courses on machine learning, autonomous robotics,
           knowledge-based artificial intelligence, and more.
           {/* collaborate with physicians, biologists, and engineers to build
           portals, tools, and{' '}
@@ -85,17 +85,17 @@ function About() {
           bioinformatics. */}
         </p>
         <p css={styles.paragraph}>
-          I spend a lot of time working on generative art and design. I&apos;m
-          also into esports, peripherals, and music. Right now, I&apos;m trying
-          to <Link href="/posts">write more</Link> and explore creative
-          projects.
+          I&apos;m also into music, gaming, and mentoring individuals whether
+          they are entering the tech industry, or simply trying to move forward
+          through school. Right now, I&apos;m finishing up school and looking
+          for full time software engineering positions.
         </p>
         <p css={styles.paragraph}>
-          I&apos;m open to new opportunities! Feel free to{' '}
+          So I&apos;m definitely open to new opportunities! Feel free to{' '}
           <Link href="mailto:mutasimac@gmail.com">email</Link>
           <CopyIconButton text="mutasimac@gmail.com" /> me or check out my{' '}
           <Link href="/contact">socials</Link> or{' '}
-          <Link href="https://agarun.com/files/aaron-agarunov-resume.pdf">
+          <Link href="https://mutasim.org/files/mutasim-chowdhury-resume.pdf">
             résumé
           </Link>
           .
@@ -105,17 +105,26 @@ function About() {
       <section>
         <Subtitle css={styles.subtitle}>Previously</Subtitle>
         <p css={styles.paragraph}>
-          I studied Chemistry at{' '}
-          <Link href="https://macaulay.cuny.edu/">Macaulay @ CUNY Hunter</Link>{' '}
-          until May 2017. After graduating, I went to{' '}
-          <Link href="https://www.appacademy.io/">App Academy</Link> to learn
-          development. I loved it and I&apos;ve been navigating the industry
-          ever since. I guess messing with HTML and CSS on 2007-era Myspace and
-          Tumblr was just the start.
+          I recently finished interning as a full stack software engineer at{' '}
+          <Link href="https://gusto.com/">Gusto</Link> in San Francisco working
+          on <Link href="https://embedded.gusto.com/">Gusto Embedded</Link>, the
+          payroll partner API.
+          <p css={styles.paragraph}>
+            Before I entered Georgia Tech, I finished my B.S. in Computer
+            Engineering at{' '}
+            <Link href="https://www.utdallas.edu/">UTDallas</Link> in May 2020.
+            During that time, I completed an internship at{' '}
+            <Link href="https://argodata.com/">Argo Data</Link> working on the
+            Teller Payments software.
+          </p>
+          <p css={styles.paragraph}>
+            After graduating into the pandemic, I started graduate school, been
+            taking care of family, and am now one step closer to being done!
+          </p>
         </p>
       </section>
 
-      <section>
+      {/* <section>
         <Subtitle css={styles.subtitle}>Colophon</Subtitle>
         <p css={styles.paragraph}>
           This is the 3rd iteration of my personal site. This one is built with
@@ -126,7 +135,7 @@ function About() {
           <Link href="https://github.com/agarun/agarun.com">GitHub</Link>.
         </p>
         <p css={styles.paragraph}>Thanks for reading!</p>
-      </section>
+      </section> */}
     </section>
   );
 }
