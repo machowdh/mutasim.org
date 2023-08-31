@@ -5,9 +5,9 @@ import * as styles from './styles';
 
 const links = [
   { title: 'About', href: '/about' },
-  // { title: 'Work', href: '/projects' },
+  { title: 'Work', href: '/projects' },
   { title: 'Contact', href: '/contact' },
-  // { title: 'Blog', href: '/posts' },
+  { title: 'Blog', href: '/posts' },
 ];
 
 export function NavLink({ href, ...props }) {
