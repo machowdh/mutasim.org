@@ -16,7 +16,7 @@ function Footer({ ...props }) {
   return (
     <footer css={styles.footer} {...props}>
       <div css={styles.content}>
-        <span>© Mutasm Chowdhury</span>
+        <span>© Mutasim Chowdhury</span>
         {links.map((link) => {
           const Icon = icons[link.title];
 
