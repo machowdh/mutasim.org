@@ -53,7 +53,7 @@ function Projects({ projects }) {
   return (
     <section css={styles.cards}>
       <Head>
-        <title>Work — Aaron Agarunov</title>
+        <title>Work — Mutasim Chowdhury</title>
       </Head>
       {projects.map(({ id, title, summary, live, code, date, tags }) => (
         <Card key={id} css={styles.card}>

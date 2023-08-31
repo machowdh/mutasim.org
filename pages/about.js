@@ -55,31 +55,33 @@ function About() {
   return (
     <section>
       <Head>
-        <title>About — Aaron Agarunov</title>
+        <title>About — Mutasim Chowdhury</title>
       </Head>
       <p css={styles.blurb}>
-        Hey! I&apos;m Aaron.
+        I&apos;m Mutasim.
         <br />
-        I&apos;m a software developer based in New York.
+        I&apos;m a software engineering student currently in Dallas.
       </p>
       <p css={styles.paragraph}>
-        I&apos;m really passionate about delivering clean and friendly
-        experiences on the web. I enjoy working on front-end development with a
-        focus on research, design, and data.
+        I&apos;m really interested in working on difficult technological
+        problems that have the promise to change things for the better.
       </p>
       <p css={styles.paragraph}>
-        I think a lot about how to enhance and share user interfaces and data
-        visualizations to make my work inclusive, fast, engaging, and pretty.
+        I'm excited about the prospect of interactive intelligence and
+        it's integration in modern software applications at scale.
       </p>
 
       <section>
         <Subtitle css={styles.subtitle}>Currently</Subtitle>
         <p css={styles.paragraph}>
-          I work in Pathology at <Link href="https://www.mskcc.org">MSKCC</Link>{' '}
-          where I collaborate with physicians, biologists, and engineers to
-          build portals, tools, and{' '}
+          I'm currently a semester away from finishing up my Master's in CS at{' '}
+          <Link href="https://omscs.gatech.edu/home">Georgia Tech</Link> where I've taken
+          courses on machine learning, autonomous robotics, knowledge-based artificial intelligence,
+          and more. 
+          {/* collaborate with physicians, biologists, and engineers to build
+          portals, tools, and{' '}
           <Link href="https://www.mskcc.org/msk-impact">tests</Link> in clinical
-          bioinformatics.
+          bioinformatics. */}
         </p>
         <p css={styles.paragraph}>
           I spend a lot of time working on generative art and design. I&apos;m
@@ -89,8 +91,8 @@ function About() {
         </p>
         <p css={styles.paragraph}>
           I&apos;m open to new opportunities! Feel free to{' '}
-          <Link href="mailto:agarunovaaron@gmail.com">email</Link>
-          <CopyIconButton text="agarunovaaron@gmail.com" /> me or check out my{' '}
+          <Link href="mailto:mutasimac@gmail.com">email</Link>
+          <CopyIconButton text="mutasimac@gmail.com" /> me or check out my{' '}
           <Link href="/contact">socials</Link> or{' '}
           <Link href="https://agarun.com/files/aaron-agarunov-resume.pdf">
             résumé

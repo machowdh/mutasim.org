@@ -28,9 +28,9 @@ function App({ Component, pageProps }) {
       <DefaultSeo
         openGraph={{
           type: 'website',
-          title: 'Aaron Agarunov',
-          site_name: 'Aaron Agarunov',
-          description: "Aaron Agarunov's personal site",
+          title: 'Mutasim Chowdhury',
+          site_name: 'Mutasim Chowdhury',
+          description: "Mutasim Chowdhury's personal site",
           images: [
             {
               url: 'https://i.imgur.com/eKTChaw.png',

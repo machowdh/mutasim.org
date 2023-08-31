@@ -97,23 +97,27 @@ function Home({ recentProjects }) {
   return (
     <>
       <Head>
-        <title>Aaron Agarunov</title>
+        <title>Mutasim Chowdhury</title>
       </Head>
       <motion.header css={styles.header} {...topMotionProps}>
-        <h1 css={styles.heading}>Aaron Agarunov</h1>
+        <h1 css={styles.heading}>Mutasim Chowdhury</h1>
         <ThemeSwitch css={styles.themeSwitch} />
       </motion.header>
       <main role="main">
         <motion.p css={styles.subheading} {...middleMotionProps}>
-          Software developer based in Brooklyn, NY. Building web experiences at{' '}
-          <Link href="https://mskcc.org">MSKCC</Link>.
+          Software engineer.
+          <br />
+          MS in CS student at Georgia Tech.{' '}
+          {/* <Link href="https://mskcc.org">Georgia Tech</Link>. */}
         </motion.p>
         <motion.div {...bottomMotionProps}>
           <p css={styles.description}>
-            I work on creating modern, engaging user interfaces with a focused
-            approach. <NavLink href="/about">Read more</NavLink>, see my{' '}
+            I'm currently studying artificial and interactive intelligence, and
+            all things software engineering.&nbsp;
+            <br />
+            <NavLink href="/about">Read more</NavLink>, see my{' '}
             <NavLink href="/projects">projects</NavLink>,{' '}
-            <NavLink href="/posts">posts</NavLink>, or{' '}
+            <NavLink href="/posts">what I'm thinking about</NavLink>, or{' '}
             <NavLink href="/contact">contact info</NavLink>.
           </p>
           <Subtitle>Projects</Subtitle>

@@ -17,7 +17,7 @@ function Layout({ children }) {
     <div css={styles.container}>
       <header id="top" css={styles.header}>
         <NavLink href="/">
-          <h1 css={styles.title}>Aaron Agarunov</h1>
+          <h1 css={styles.title}>Mutasim Chowdhury</h1>
         </NavLink>
         <Nav />
         <ThemeSwitch css={[sharedStyles.icon, styles.themeSwitch]} />

@@ -7,7 +7,7 @@ describe('index page', () => {
     render(<Index recentProjects={[]} />);
 
     const heading = screen.getByRole('heading', {
-      name: /aaron agarunov/i,
+      name: /mutasim chowdhury/i,
     });
 
     expect(heading).toBeInTheDocument();

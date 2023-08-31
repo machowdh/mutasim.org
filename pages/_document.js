@@ -45,7 +45,7 @@ class CustomDocument extends Document {
           <meta name="msapplication-TileColor" content="#0e0629" />
 
           <meta name="build version" content={packageInfo.version} />
-          <meta name="description" content="Aaron Agarunov's portfolio" />
+          <meta name="description" content="Mutasim Chowdhury's portfolio" />
 
           <link
             rel="preconnect"

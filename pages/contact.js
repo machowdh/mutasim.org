@@ -126,7 +126,7 @@ function Contact({ links }) {
   return (
     <section>
       <Head>
-        <title>Contact — Aaron Agarunov</title>
+        <title>Contact — Mutasim Chowdhury</title>
       </Head>
       <motion.ul
         initial="hidden"

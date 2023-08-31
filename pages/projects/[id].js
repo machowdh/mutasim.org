@@ -22,7 +22,7 @@ function Project({ project }) {
   return (
     <>
       <Head>
-        <title>{project.title} — Aaron Agarunov</title>
+        <title>{project.title} — Mutasim Chowdhury</title>
         <link
           href="https://fonts.googleapis.com/css2?family=Cousine&display=swap"
           rel="stylesheet"

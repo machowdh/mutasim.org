@@ -29,7 +29,7 @@ function Post({ post, prev, next }) {
   return (
     <>
       <Head>
-        <title>{post.title} — Aaron Agarunov</title>
+        <title>{post.title} — Mutasim Chowdhury</title>
         <link
           href="https://fonts.googleapis.com/css2?family=Cousine&display=swap"
           rel="stylesheet"
