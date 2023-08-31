@@ -118,8 +118,9 @@ function About() {
             Teller Payments software.
           </p>
           <p css={styles.paragraph}>
-            After graduating into the pandemic, I started graduate school, been
-            taking care of family, and am now one step closer to being done!
+            After graduating into the pandemic, I started graduate school, have
+            been taking care of family, and am now one step closer to being
+            done!
           </p>
         </p>
       </section>
