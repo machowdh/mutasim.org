@@ -62,13 +62,12 @@ function About() {
         <br />A software engineering student currently in Dallas.
       </p>
       <p css={styles.paragraph}>
-        I&apos;m really interested in working on technological problems that
-        have the promise to change things for the better.
+        What I care about: I&apos;m really interested in working on problems
+        that have the promise to change things for the better.
       </p>
       <p css={styles.paragraph}>
-        My excitement is in working to integrate AI in modern software
-        applications at scale. But any interesting mission brings interesting
-        technology.
+        What excites me: Working to integrate AI in modern software applications
+        at scale to make lives better.
       </p>
 
       <section>
@@ -86,12 +85,16 @@ function About() {
         </p>
         <p css={styles.paragraph}>
           I&apos;m also into music, gaming, and mentoring individuals whether
-          they are entering the tech industry, or simply trying to move forward
-          through school. Right now, I&apos;m finishing up school and looking
-          for full time software engineering positions.
+          they are entering the tech industry, or simply trying to move forward.
         </p>
         <p css={styles.paragraph}>
-          So I&apos;m definitely open to new opportunities! Feel free to{' '}
+          I&apos;ve also spent a lot of time helping build and design solutions
+          for online communities, check out who my buddies and I at{' '}
+          <Link href="https://q3p.com/">q3p LLC</Link> have worked with!
+        </p>
+        <p css={styles.paragraph}>
+          So since school is almost done, I&apos;m definitely open to new
+          opportunities! Feel free to{' '}
           <Link href="mailto:mutasimac@gmail.com">email</Link>
           <CopyIconButton text="mutasimac@gmail.com" /> me or check out my{' '}
           <Link href="/contact">socials</Link> or{' '}
