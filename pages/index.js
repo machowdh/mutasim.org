@@ -4,7 +4,7 @@ import { useEffect, useState } from 'react';
 import { css } from '@emotion/react';
 import { getProjects } from '../lib/projects';
 import Link from '../components/Link';
-import Monogram from '../components/Monogram';
+// import Monogram from '../components/Monogram';
 import ThemeSwitch from '../components/ThemeSwitch';
 import Subtitle from '../components/Subtitle';
 import Recent from '../components/Recent';
@@ -124,7 +124,7 @@ function Home({ recentProjects }) {
         </motion.div>
       </main>
       <motion.footer {...bottomMotionProps} css={styles.footer}>
-        <Monogram width={30} height={30} />
+        {/* <Monogram width={30} height={30} /> */}
       </motion.footer>
     </>
   );

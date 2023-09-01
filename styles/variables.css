@@ -80,9 +80,9 @@ body.dark {
   --colors-grey-900: hsl(210deg, 17%, 88%);
   --colors-grey-1000: hsl(210deg, 17%, 96%);
 
-  --colors-link: hsl(38deg, 91%, 60%);
-  --colors-link-700: hsl(38deg, 93%, 60%, 0.44);
-  --colors-link-900: hsl(38deg, 93%, 60%, 0.19);
+  --colors-link: hsl(32, 91%, 60%);
+  --colors-link-700: hsl(32deg, 93%, 60%, 0.44);
+  --colors-link-900: hsl(32deg, 93%, 60%, 0.19);
   --colors-link-gradient: hsl(333deg, 43%, 63%, 0.44);
 
   --font-weight-bold: 500;

@@ -1,8 +1,8 @@
-import Monogram from '../Monogram';
+// import Monogram from '../Monogram';
 import { getSocials } from '../../lib/socials';
 import { GitHubIcon, LinkedInIcon, TwitterIcon, ArrowTopIcon } from '../Icon';
 import * as styles from './styles';
-import * as sharedStyles from '../../styles/shared';
+// import * as sharedStyles from '../../styles/shared';
 
 const icons = {
   GitHub: GitHubIcon,
@@ -36,7 +36,7 @@ function Footer({ ...props }) {
           <ArrowTopIcon width={14} height={14} />
         </a>
       </div>
-      <Monogram css={[sharedStyles.icon, styles.monogram]} />
+      {/* <Monogram css={[sharedStyles.icon, styles.monogram]} /> */}
     </footer>
   );
 }

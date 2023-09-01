@@ -66,8 +66,10 @@ function About() {
         that have the promise to change things for the better.
       </p>
       <p css={styles.paragraph}>
-        What excites me: Working to integrate AI in modern software applications
-        at scale to make lives better.
+        What excites me: Improving my software engineering skills and utilizing
+        them to do the above, regardless of the technological stack! That said,
+        I&apos;m keen to help integrate AI into modern software applications at
+        scale.
       </p>
 
       <section>
@@ -88,8 +90,8 @@ function About() {
           they are entering the tech industry, or simply trying to move forward.
         </p>
         <p css={styles.paragraph}>
-          I&apos;ve also spent a lot of time helping build and design solutions
-          for online communities, check out who my buddies and I at{' '}
+          As an example, some of that has been helping build and design
+          solutions for online communities, check out who my buddies and I at{' '}
           <Link href="https://q3p.com/">q3p LLC</Link> have worked with!
         </p>
         <p css={styles.paragraph}>
