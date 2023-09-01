@@ -1,6 +1,6 @@
 # [mutasim.org](mutasim.org)
 
-My personal website. The template was designed by good friend and mentor [Aaron Agarunov](https://agarun.com/) and I've simply changed it a bit for my use
+My personal website. The template was designed by good friend and mentor [Aaron Agarunov](github.com/agarun) and I've simply changed it a bit for my use
 case. Give him a look and see what other interesting work he's done! Below, are his instructions and comments, which still remain true with some comments.
 I've decided to host mine using Vercel instead, but Netlify works just as well.
 
