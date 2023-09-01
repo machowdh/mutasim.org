@@ -1,10 +1,12 @@
 # [mutasim.org](mutasim.org)
 
-My personal website where I host my portfolio, contact information, and blog posts. It's always a work in progress, but feel free to look around.
+My personal website. The template was designed by good friend and mentor [Aaron Agarunov](https://agarun.com/) and I've simply changed it a bit for my use
+case. Give him a look and see what other interesting work he's done! Below, are his instructions and comments, which still remain true with some comments.
+I've decided to host mine using Vercel instead, but Netlify works just as well.
 
 ## Getting Started
 
-The prerequisites are Yarn and Node >= 14.
+The prerequisites are Yarn and Node >= 16. (I've updated from 14 to avoid SSL vulnerabilities and am currently using 18 myself.)
 
 First, install the dependencies:
 
@@ -68,7 +70,3 @@ Hosted with [Netlify](https://www.netlify.com/). Built with React and [Next.js](
 
 - [Jest](https://jestjs.io/) and [React Testing Library](https://testing-library.com/docs/react-testing-library/intro/) for unit and integration tests
 - [Cypress](https://www.cypress.io/) for integration and end-to-end tests
-
-### Misc.
-
-This is the third iteration of `agarun.com`. The first one was made with [Jekyll](https://jekyllrb.com/), and the second with [Gatsby](https://www.gatsbyjs.com/).
