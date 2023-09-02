@@ -1,4 +1,5 @@
-import { MDX } from '../Markdown';
+import { MDX } from '../Markdown'; // Replace with the actual import path
+import { MDXProvider } from '@mdx-js/react';
 import PrevNext from './components/PrevNext';
 import Date from './components/Date';
 import Author from './components/Author';
@@ -11,7 +12,9 @@ function Post({ title, date, html, prev, next }) {
       <h2>
         <Date>{date}</Date>
       </h2>
-      <MDX css={styles.prose} source={html} />
+      <MDXProvider>
+        <MDX css={styles.prose} source={html} />
+      </MDXProvider>
       <Author />
       <PrevNext prev={prev} next={next} />
     </article>

@@ -52,7 +52,7 @@ export function Avatar() {
         layout="fill"
         objectFit="cover"
         placeholder="blur"
-        alt="Photo of the author Aaron"
+        alt="Photo of the author Mutasim"
       />
     </div>
   );
@@ -61,16 +61,16 @@ export function Avatar() {
 function Author() {
   return (
     <div css={styles.author}>
-      <Avatar />
+      {/* <Avatar /> */}
       <address>
         <a
           rel="author noopener noreferrer"
           target="_blank"
-          href="https://twitter.com/agarune"
+          href="https://github.com/machowdh"
         >
           Mutasim Chowdhury
         </a>
-        <p>tinkerer, artist, web person</p>
+        <p></p>
       </address>
     </div>
   );
