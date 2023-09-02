@@ -59,7 +59,7 @@ function About() {
       </Head>
       <p css={styles.blurb}>
         I&apos;m Mutasim.
-        <br />A software engineering student currently in Dallas.
+        {/* <br />A software engineering student currently in Dallas. */}
       </p>
       <p css={styles.paragraph}>
         What I care about: I&apos;m really interested in working on problems
