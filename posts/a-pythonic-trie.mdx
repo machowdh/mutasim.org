@@ -72,7 +72,7 @@ This is nice for large inputs where you might want to see how many of a certain 
 We know that to get to a node you need to have the letters it descended
 from, so we can prove that accessing the count of the final node in a search is an O(1) constant time lookup.
 
-Pretty useful when you're trying to filter through a lot of strings.
+Pretty useful when you're trying to filter through a lot of strings AND you don't have to store non unique nodes or letters!
 
 # Implementation
 
@@ -179,16 +179,12 @@ def add(self, word):
 There are a few things happening here in the for loop, but it's quite simple, if you take it step by step.
 
 - `(self := self[c])`
-  <br/>
-  _ This is an assignment expression using the Walrus operator that's been in Python since 3.8. At it's core, it can be useful to assign a variable after an expression is evaluated for further use. This means its great for situations where you have intermediate steps and you might want to store the results of those steps as you generate them.
-  <br/>
-  _ In this case we add the current character to our Trie (which is inheriting from `defaultdict`), meaning we can index it by a key to find the value just like a regular dictionary.
-  _ And then we just update self to the child object we just made.
-  _ Lastly, we increment it's count by one.
-  <br />
+  - This is an assignment expression using the Walrus operator that's been in Python since 3.8. At it's core, it can be useful to assign a variable after an expression is evaluated for further use. This means its great for situations where you have intermediate steps and you might want to store the results of those steps as you generate them.
+  - In this case we add the current character to our Trie (which is inheriting from `defaultdict`), meaning we can index it by a key to find the value just like a regular dictionary.
+  - And then we just update self to the child object we just made.
+  - Lastly, we increment it's count by one.
 - `self.is_word = True`
-  <br />* Once we get to the last character in the word, it's a leaf node. So we
-  just set it's `is_word` variable to True.
+  - Once we get to the last character in the word, it's a leaf node. So we just set it's `is_word` variable to True.
 
 # Getting functional
 
@@ -236,7 +232,6 @@ Now let's go ahead and define those 3 things for our search operation.
 1. The function to apply
    1. This might seem unclear, but what we're doing at each step of our search operation is **getting the child node** that corresponds to `trie[character]`. The function that we'll use to do so is **`operator.getitem`**.
    2. `getitem` for brevity's sake is basically our `[]` operation when accessing keys in dictionaries.
-      <br />
 2. The iterable to reduce
 
    1. _Do we use `word` or `self`?_
