@@ -129,19 +129,6 @@ function About() {
           </p>
         </p>
       </section>
-
-      {/* <section>
-        <Subtitle css={styles.subtitle}>Colophon</Subtitle>
-        <p css={styles.paragraph}>
-          This is the 3rd iteration of my personal site. This one is built with
-          React and Next.js, and hosted on Netlify. It&apos;s set in{' '}
-          <Link href="https://rsms.me/inter/">Inter</Link> for sans serif and{' '}
-          <Link href="https://fonts.google.com/specimen/Cousine">Cousine</Link>{' '}
-          for monospace. The code is available on{' '}
-          <Link href="https://github.com/agarun/agarun.com">GitHub</Link>.
-        </p>
-        <p css={styles.paragraph}>Thanks for reading!</p>
-      </section> */}
     </section>
   );
 }

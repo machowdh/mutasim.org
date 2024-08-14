@@ -16,7 +16,7 @@ function Post({ title, date, html, prev, next }) {
         css={styles.prose}
         source={html}
         components={{
-          Image: (props) => <Image {...props} />,
+          Image: (props) => <Image alt="" {...props} />,
           // Add other components as needed
         }}
       />

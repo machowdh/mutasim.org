@@ -5,5 +5,13 @@
     "plugin:prettier/recommended",
     "plugin:cypress/recommended",
     "next/core-web-vitals"
-  ]
+  ],
+  "rules": {
+    "prettier/prettier": [
+      "error",
+      {
+        "endOfLine": "auto"
+      }
+    ]
+  }
 }

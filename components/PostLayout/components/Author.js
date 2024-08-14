@@ -70,7 +70,6 @@ function Author() {
         >
           Mutasim Chowdhury
         </a>
-        <p></p>
       </address>
     </div>
   );

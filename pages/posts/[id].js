@@ -30,10 +30,6 @@ function Post({ post, prev, next }) {
     <>
       <Head>
         <title>{post.title} — Mutasim Chowdhury</title>
-        <link
-          href="https://fonts.googleapis.com/css2?family=Cousine&display=swap"
-          rel="stylesheet"
-        />
       </Head>
       <PostLayout {...post} prev={prev} next={next} />
       <Global styles={global} />

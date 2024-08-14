@@ -16,7 +16,7 @@ export function NavLink({ href, ...props }) {
 
   return (
     <NextLink href={href} passHref>
-      <a
+      <span
         css={[styles.link, isActive && styles.active]}
         aria-current={isActive ? 'page' : null}
         {...props}
@@ -25,12 +25,26 @@ export function NavLink({ href, ...props }) {
   );
 }
 
+// function Nav() {
+//   return (
+//     <ul css={styles.links}>
+//       {links.map((link) => (
+//         <li key={link.title}>
+//           <NavLink href={link.href}>{link.title}</NavLink>
+//         </li>
+//       ))}
+//     </ul>
+//   );
+// }
+
 function Nav() {
   return (
     <ul css={styles.links}>
       {links.map((link) => (
         <li key={link.title}>
-          <NavLink href={link.href}>{link.title}</NavLink>
+          <a href={link.href} css={styles.link}>
+            {link.title}
+          </a>
         </li>
       ))}
     </ul>

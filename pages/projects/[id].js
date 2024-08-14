@@ -23,10 +23,6 @@ function Project({ project }) {
     <>
       <Head>
         <title>{project.title} — Mutasim Chowdhury</title>
-        <link
-          href="https://fonts.googleapis.com/css2?family=Cousine&display=swap"
-          rel="stylesheet"
-        />
       </Head>
       <ProjectLayout {...project} />
     </>
