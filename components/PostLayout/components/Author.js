@@ -1,6 +1,6 @@
-import Image from 'next/image';
+// import Image from 'next/image';
 import { css } from '@emotion/react';
-import profilePhoto from '../../../public/images/me.jpg';
+// import profilePhoto from '../../../public/images/me.jpg';
 
 const styles = {
   author: css`
@@ -47,13 +47,13 @@ const styles = {
 export function Avatar() {
   return (
     <div css={styles.avatar}>
-      <Image
+      {/* <Image
         src={profilePhoto}
         layout="fill"
         objectFit="cover"
         placeholder="blur"
         alt="Photo of the author Mutasim"
-      />
+      /> */}
     </div>
   );
 }

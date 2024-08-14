@@ -57,47 +57,18 @@ function About() {
       <Head>
         <title>About — Mutasim Chowdhury</title>
       </Head>
-      <p css={styles.blurb}>
-        I&apos;m Mutasim.
-        {/* <br />A software engineering student currently in Dallas. */}
-      </p>
+      <p css={styles.blurb}>I&apos;m Mutasim.</p>
       <p css={styles.paragraph}>
-        What I care about: I&apos;m really interested in working on problems
-        that have the promise to change things for the better.
-      </p>
-      <p css={styles.paragraph}>
-        What excites me: Improving my software engineering skills and utilizing
-        them to do the above, regardless of the technological stack! That said,
-        I&apos;m keen to help integrate AI into modern software applications at
-        scale.
+        Improving my software engineering skills and utilizing them to do the
+        above, regardless of the technological stack! That said, I&apos;m keen
+        to help integrate AI into modern software applications at scale.
       </p>
 
       <section>
         <Subtitle css={styles.subtitle}>Currently</Subtitle>
         <p css={styles.paragraph}>
-          I&apos;m currently a semester away from finishing up my Master&apos;s
-          in CS at{' '}
-          <Link href="https://omscs.gatech.edu/home">Georgia Tech</Link> where
-          I&apos;ve taken courses on machine learning, autonomous robotics,
-          knowledge-based artificial intelligence, and more.
-          {/* collaborate with physicians, biologists, and engineers to build
-          portals, tools, and{' '}
-          <Link href="https://www.mskcc.org/msk-impact">tests</Link> in clinical
-          bioinformatics. */}
-        </p>
-        <p css={styles.paragraph}>
-          I&apos;m also into music, gaming, and mentoring individuals whether
-          they are entering the tech industry, or simply trying to move forward.
-        </p>
-        <p css={styles.paragraph}>
-          As an example, some of that has been helping build and design
-          solutions for online communities, check out who my buddies and I at{' '}
-          <Link href="https://q3p.com/">q3p LLC</Link> have worked with!
-        </p>
-        <p css={styles.paragraph}>
-          So since school is almost done, I&apos;m definitely open to new
-          opportunities! Feel free to{' '}
-          <Link href="mailto:mutasimac@gmail.com">email</Link>
+          Having just graduated, I&apos;m definitely open to new opportunities!
+          Feel free to <Link href="mailto:mutasimac@gmail.com">email</Link>
           <CopyIconButton text="mutasimac@gmail.com" /> me or check out my{' '}
           <Link href="/contact">socials</Link> or{' '}
           <Link href="https://mutasim.org/files/mutasim-chowdhury-resume.pdf">
@@ -105,10 +76,29 @@ function About() {
           </Link>
           .
         </p>
+
+        <p css={styles.paragraph}>
+          I&apos;n my free time when I&apos;m not working on projects that
+          interest me--music, gaming, and mentoring individuals whether they are
+          entering the tech industry or simply trying to move forward in life
+          are some of the things you can find me involved in.
+        </p>
+        <p css={styles.paragraph}>
+          As an example, some of that has been helping build and design
+          solutions for online communities-- check out who my buddies and I at{' '}
+          <Link href="https://q3p.com/">q3p LLC</Link> have worked with!
+        </p>
       </section>
 
       <section>
         <Subtitle css={styles.subtitle}>Previously</Subtitle>
+        <p css={styles.paragraph}>
+          In May of 2024, I finished my Master&apos;s in CS at{' '}
+          <Link href="https://omscs.gatech.edu/home">Georgia Tech</Link> where I
+          worked on natural language programming, machine learning, autonomous
+          robotics, knowledge-based artificial intelligence, and more with a 3.9
+          GPA.
+        </p>
         <p css={styles.paragraph}>
           I recently finished interning as a full stack software engineer at{' '}
           <Link href="https://gusto.com/">Gusto</Link> in San Francisco working
@@ -122,11 +112,11 @@ function About() {
             <Link href="https://argodata.com/">Argo Data</Link> working on the
             Teller Payments software.
           </p>
-          <p css={styles.paragraph}>
+          {/* <p css={styles.paragraph}>
             After graduating into the pandemic, I started graduate school, have
             been taking care of family, and am now one step closer to being
             done!
-          </p>
+          </p> */}
         </p>
       </section>
     </section>

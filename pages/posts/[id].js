@@ -29,7 +29,7 @@ function Post({ post, prev, next }) {
   return (
     <>
       <Head>
-        <title>{post.title} — Mutasim Chowdhury</title>
+        <title> — Mutasim Chowdhury</title>
       </Head>
       <PostLayout {...post} prev={prev} next={next} />
       <Global styles={global} />

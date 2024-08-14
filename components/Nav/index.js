@@ -25,26 +25,12 @@ export function NavLink({ href, ...props }) {
   );
 }
 
-// function Nav() {
-//   return (
-//     <ul css={styles.links}>
-//       {links.map((link) => (
-//         <li key={link.title}>
-//           <NavLink href={link.href}>{link.title}</NavLink>
-//         </li>
-//       ))}
-//     </ul>
-//   );
-// }
-
 function Nav() {
   return (
     <ul css={styles.links}>
       {links.map((link) => (
         <li key={link.title}>
-          <a href={link.href} css={styles.link}>
-            {link.title}
-          </a>
+          <NavLink href={link.href}>{link.title}</NavLink>
         </li>
       ))}
     </ul>

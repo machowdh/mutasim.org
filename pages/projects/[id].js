@@ -22,7 +22,7 @@ function Project({ project }) {
   return (
     <>
       <Head>
-        <title>{project.title} — Mutasim Chowdhury</title>
+        <title> — Mutasim Chowdhury</title>
       </Head>
       <ProjectLayout {...project} />
     </>

@@ -105,10 +105,12 @@ function Home({ recentProjects }) {
       </motion.header>
       <main role="main">
         <motion.p css={styles.subheading} {...middleMotionProps}>
-          Software Engineer
-          <br />
-          MS in CS @ <Link href="https://www.gatech.edu/">Georgia Tech</Link>
+          Software engineer, MS in CS @{' '}
+          <Link href="https://www.gatech.edu/">Georgia Tech</Link>
+          Most recently at{' '}
+          <Link href="https://engineering.gusto.com/">Gusto</Link>
         </motion.p>
+
         <motion.div {...bottomMotionProps}>
           <p css={styles.description}>
             I&apos;m currently studying artificial and interactive intelligence,
