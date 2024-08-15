@@ -18,11 +18,7 @@ function Link({ href, ...props }) {
     );
   }
 
-  return (
-    <NextLink href={href} passHref>
-      <span css={styles.link} {...props} />
-    </NextLink>
-  );
+  return <NextLink href={href} css={styles.link} {...props} />;
 }
 
 export default Link;

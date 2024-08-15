@@ -1,4 +1,3 @@
-/* eslint-disable jsx-a11y/anchor-has-content */
 import NextLink from 'next/link';
 import { useRouter } from 'next/router';
 import * as styles from './styles';
@@ -15,12 +14,13 @@ export function NavLink({ href, ...props }) {
   const isActive = asPath === href || asPath === props.as;
 
   return (
-    <NextLink href={href} passHref>
-      <span
-        css={[styles.link, isActive && styles.active]}
-        aria-current={isActive ? 'page' : null}
-        {...props}
-      />
+    <NextLink
+      href={href}
+      css={[styles.link, isActive && styles.active]}
+      aria-current={isActive ? 'page' : null}
+      {...props}
+    >
+      {props.children}
     </NextLink>
   );
 }

@@ -25,7 +25,7 @@ function Recent({ projects }) {
     <section css={styles.container}>
       {projects.map(({ id, live, title, summary }) => (
         <article key={id}>
-          <span
+          <a
             target="_blank"
             rel="noopener noreferrer"
             css={navStyles.link}
@@ -33,7 +33,7 @@ function Recent({ projects }) {
           >
             <h2 css={styles.title}>{title}</h2>
             <p css={styles.summary}>{summary}</p>
-          </span>
+          </a>
         </article>
       ))}
       <NavLink css={styles.note} href="/projects">
