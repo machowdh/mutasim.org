@@ -71,7 +71,7 @@ function About() {
           Feel free to <Link href="mailto:mutasimac@gmail.com">email</Link>
           <CopyIconButton text="mutasimac@gmail.com" /> me or check out my{' '}
           <Link href="/contact">socials</Link> or{' '}
-          <Link href="https://mutasim.org/files/mutasim-chowdhury-resume.pdf">
+          <Link href="https://mutasim.org/files/mutasim_chowdhury_resume.pdf">
             résumé
           </Link>
           .
